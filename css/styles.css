@@ -499,6 +499,11 @@ nav {
   text-align: center;
   padding: 1rem 2rem;
 }
+@media (max-width: 491px) {
+  .form {
+    padding: 1rem;
+  }
+}
 
 .form-header {
   margin-bottom: 1rem;
@@ -620,6 +625,22 @@ hr {
 }
 .register-form div .form-item {
   margin-top: 0.25rem;
+}
+
+.register-form .radio-btns {
+  margin-top: 0.25rem;
+}
+
+.register-form .radio-btns div {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.register-form .radio-btns span {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
 }
 
 /* TRANSACTIONS PAGE */
