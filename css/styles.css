@@ -365,10 +365,15 @@ nav {
 
 .nav-center {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 1rem;
+}
+@media (min-width: 550px) {
+  .nav-center {
+    justify-content: space-between;
+  }
 }
 
 .nav-logo h4 {
@@ -423,7 +428,7 @@ nav {
   padding: 2rem 1rem;
 }
 .hero-info h1 {
-  font-size: 3.5rem;
+  font-size: 1.65rem;
   text-transform: capitalize;
   letter-spacing: 3px;
 }
@@ -484,6 +489,11 @@ nav {
 
   img {
     width: 100%;
+  }
+
+  .hero-btn {
+    padding: 0.5rem 1rem;
+    letter-spacing: 1px;
   }
 }
 
