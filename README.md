@@ -4,7 +4,7 @@ A landing page for a dummy online bank built with HTML, CSS, and Vanilla Js. Thi
 
 ## Live Preview
 
-[FinBank - Live Demo](https://yodkwtf.github.io/finbank-html-css/)
+[FinBank - Live Demo](https://finbank-dk.netlify.app)
 
 ## Preview
 
