@@ -662,15 +662,13 @@ hr {
   background-color: rgb(75, 196, 244);
 }
 
-#transactions h1 {
+#transactions h2 {
   margin-bottom: 2rem;
-
-  font-size: 3.5rem;
   text-transform: capitalize;
   letter-spacing: 3px;
 }
 
-#transactions h1 span {
+#transactions h2 span {
   color: var(--primary-5);
 }
 
